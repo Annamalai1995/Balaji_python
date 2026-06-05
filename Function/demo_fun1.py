@@ -9,3 +9,15 @@ def College():
     else:
         print("Not eligible")
 College()
+
+#Function Parameter
+def hiring(qual,ref):
+    if qual =='ug' and ref=='hr':
+        print("You are hired in US Based Project")
+    elif qual == 'Pg' and ref=='Team lead':
+        print("You are hired in KPo company") 
+    else:
+        print("You are Hired")
+hiring(qual='ug',ref='hr')
+hiring(qual='pg',ref='Team lead')
+
